@@ -4,5 +4,5 @@ import CountdownTimer from './timer.js';
 
 const timer = new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('January 15, 2021'),
+  targetDate: new Date('January 01, 2021'),
 });

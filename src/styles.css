@@ -1,34 +1,53 @@
-body {
+* {
   margin: 0;
   padding: 0;
 }
 
-.timer {
+body {
+  background-color: rgb(64, 16, 238);
+  color: rgb(142, 84, 235);
+  padding: 150px 150px;
+}
+
+
+h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-family: sans-serif;
-  color: white;
-  display: inline-block;
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px;
+  font-family: sans-serif;
+  color: rgba(255, 255, 255, 0.911);
+
   font-weight: 100;
   text-align: center;
   font-size: 30px;
-  background: #01002e;
+  background: #110f8b;
 }
 .field {
-  padding: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 20px;
   border-radius: 3px;
-  background: #0f033d;
-  display: inline-block;
-  
-  
+  background: #280d96;
 }
 .value {
-  padding: 15px;
+  font-size: 80px;
+  font-weight: 400;
   border-radius: 3px;
-  background: #07d680;
-  display: inline-block;
+  background: #eff320;
 }
 
 .label {
-  display: block;
+  display: flex;
   padding-top: 5px;
-  font-size: 16px;
+  font-size: 15px;
 }
