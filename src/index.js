@@ -1,6 +1,7 @@
 import './styles.css';
 import './timer.js';
 import CountdownTimer from './timer.js';
+
 // Попытка 2 встроть аудио
 // import './sound.js';
 
